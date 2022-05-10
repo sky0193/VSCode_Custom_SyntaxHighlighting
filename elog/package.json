@@ -1,0 +1,25 @@
+{
+    "name": "elog",
+    "displayName": "Easy-Logs",
+    "description": "Easy Log Reader",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "elog",
+            "aliases": ["elog", "elog"],
+            "extensions": ["elog"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "elog",
+            "scopeName": "source.elog",
+            "path": "./syntaxes/elog.tmLanguage.json"
+        }]
+    }
+}
